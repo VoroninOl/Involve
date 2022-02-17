@@ -1,0 +1,11 @@
+INFO: * Running on http://127.0.0.1:80/ (Press CTRL+C to quit)
+INFO:127.0.0.1 - - [17/Feb/2022 10:21:07] "GET / HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [17/Feb/2022 10:21:08] "[36mGET /static/css/app.css HTTP/1.1[0m" 304 -
+INFO:Order #1 created | Currency - 978 | Amount - 10.00 | Description - Test invoice | Data - 2022-02-17 08:21:16.815834
+INFO:127.0.0.1 - - [17/Feb/2022 10:21:16] "[32mPOST / HTTP/1.1[0m" 302 -
+INFO:Order #2 created | Currency - 840 | Amount - 10.00 | Description - Test invoice | Data - 2022-02-17 08:21:23.269967
+INFO:127.0.0.1 - - [17/Feb/2022 10:21:23] "[32mPOST / HTTP/1.1[0m" 302 -
+INFO:Order #3 failed | Error in Bill | Message - Payway (alias = advcash_rub) is not available for shop
+INFO:127.0.0.1 - - [17/Feb/2022 10:21:29] "[32mPOST / HTTP/1.1[0m" 302 -
+INFO:127.0.0.1 - - [17/Feb/2022 10:21:29] "GET / HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [17/Feb/2022 10:21:30] "[36mGET /static/css/app.css HTTP/1.1[0m" 304 -

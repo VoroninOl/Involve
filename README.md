@@ -26,7 +26,7 @@ $ python app.py
 создании заказа.
 
 Был произведёт деплой проекта на сервис Heroku. 
- * [Ссылка на heroku](https://dashboard.heroku.com/apps/involve-test)
+ * [Ссылка на heroku](https://involve-test.herokuapp.com/)
 
 P.S. На данный момент при текущих параметрах оплата в 
 рублях производит редирект на домашнюю страницу сайта

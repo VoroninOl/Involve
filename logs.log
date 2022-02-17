@@ -9,3 +9,11 @@ INFO:Order #3 failed | Error in Bill | Message - Payway (alias = advcash_rub) is
 INFO:127.0.0.1 - - [17/Feb/2022 10:21:29] "[32mPOST / HTTP/1.1[0m" 302 -
 INFO:127.0.0.1 - - [17/Feb/2022 10:21:29] "GET / HTTP/1.1" 200 -
 INFO:127.0.0.1 - - [17/Feb/2022 10:21:30] "[36mGET /static/css/app.css HTTP/1.1[0m" 304 -
+INFO: * Running on http://127.0.0.1:80/ (Press CTRL+C to quit)
+INFO:127.0.0.1 - - [17/Feb/2022 11:33:29] "GET / HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [17/Feb/2022 11:33:29] "[36mGET /static/css/app.css HTTP/1.1[0m" 304 -
+INFO:127.0.0.1 - - [17/Feb/2022 11:33:32] "GET / HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [17/Feb/2022 11:33:32] "[36mGET /static/css/app.css HTTP/1.1[0m" 304 -
+INFO: * Running on http://127.0.0.1:80/ (Press CTRL+C to quit)
+INFO:127.0.0.1 - - [17/Feb/2022 11:52:31] "GET / HTTP/1.1" 200 -
+INFO:127.0.0.1 - - [17/Feb/2022 11:52:32] "[36mGET /static/css/app.css HTTP/1.1[0m" 304 -

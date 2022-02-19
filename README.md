@@ -16,10 +16,15 @@ $ python
 >> db.create_all()
 ```
 После этого подождите пока в папке app не появится файл orders.db.
-
-Возможно вам ещё потребуется изменить заданные параметры 
-(secret_key, shop_id, payway). Их можно менять в файле config.py, 
-который находится в папке app.<br/>
+Ещё вам потребуется ввести параметры (secret_key, shop_id, payway).
+Их нужно добавить в файл config.py, который находится в папке app.
+Добавить их можно просто вписав:
+```python
+secret_key = 'ExampleSecretKey'
+shop_id = 5
+payway = 'example_payway'
+```
+Параметр shop_id - int. Остальные - string.<br/>
 После этого можно запустить проект:
 ```
 $ python app.py

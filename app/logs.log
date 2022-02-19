@@ -1,8 +1,0 @@
-INFO: * Restarting with stat
-WARNING: * Debugger is active!
-INFO: * Debugger PIN: 129-519-733
-INFO: * Running on http://127.0.0.1:80/ (Press CTRL+C to quit)
-INFO:127.0.0.1 - - [19/Feb/2022 16:00:46] "GET / HTTP/1.1" 200 -
-INFO:127.0.0.1 - - [19/Feb/2022 16:00:46] "[36mGET /static/css/app.css HTTP/1.1[0m" 304 -
-INFO:Order #1 created | Currency - 978 | Amount - 10.00 | Description - Test invoice | Data - 2022-02-19 14:00:48.707163
-INFO:127.0.0.1 - - [19/Feb/2022 16:00:48] "[32mPOST / HTTP/1.1[0m" 302 -

@@ -1,7 +1,7 @@
 
-secret_key = 'SecretKey01'
-shop_id = 5
-payway = 'advcash_rub'
+# secret_key = ''
+# shop_id =
+# payway = ''
 
 # Codes of currency
 code_eur = '978'

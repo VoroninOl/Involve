@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block body %}
+    <div style="margin: 20px; box-shadow: 0 0 10px rgba(0,0,0,0.5); margin-left: auto;
+    margin-right: auto; width: 50%; display: flex;
+    flex-direction: column;">
+        <form method="post" style="display: flex; flex-direction: column;">
+            {{ form.hidden_tag() }}
+            <h1 style="width: 100%; text-align: center;">Payment</h1>
+            <div style="margin: 5px 10px; display: inline-flex; border-bottom: outset;">
+                {{ form.amount.label(style="width: 50%; text-align: center;") }}
+                {{ form.amount(style="width: 50%; margin: 2px;", value="10.00") }}
+            </div>
+            <div style="margin: 5px 10px; display: inline-flex; border-bottom: outset;">
+                {{ form.currency.label(style="width: 50%; text-align: center;") }}
+                {{ form.currency(style="width: 50%; margin: 2px;") }}
+            </div>
+            <div style="margin: 5px 10px;">
+                {{ form.description.label(style="width: 100%; text-align: center;") }}
+                {{ form.description(style="width: 100%; height: 100px;", value="Test invoice") }}
+            </div>
+            {{ form.submit(class="btn btn-primary", style="margin: 10px") }}
+        </form>
+    </div>
+{% endblock %}

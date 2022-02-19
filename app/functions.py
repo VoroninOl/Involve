@@ -1,11 +1,12 @@
 import hashlib
-from pyfiles.config import secret_key
+from app.config import secret_key
 
 
 def generate_sign(params):
     """Function to generate sign sha256 HEX
     Params:
-        params - list of values"""
+        params: list
+            list of values"""
     string_to_code = ''
     for par in params:
         string_to_code += str(par) + ':'
@@ -17,8 +18,10 @@ def generate_sign(params):
 def generate_url(url, params):
     """Function to generate url for another service
     Params:
-        url - url of service
-        params - dictionary of parameters to pass in url"""
+        url: str
+            url of service
+        params: dict
+            dictionary of parameters to pass in url"""
     url_to_return = url + '?'
     for par in params:
         url_to_return += '{}={}&'.format(par, params[par])
@@ -26,14 +29,12 @@ def generate_url(url, params):
     return url_to_return
 
 
-def is_digit(string):
-    """ Function to check is string a digit
-    Inputs string"""
-    if string.isdigit():
-       return True
-    else:
-        try:
-            float(string)
-            return True
-        except ValueError:
-            return False
+def generate_list_by_alphabet(params):
+    """Function to return list of dictionary values by alphabet order
+    Params:
+        params: dict
+            dictionary of parameters to sort"""
+    list_keys = list(params.keys())
+    list_keys.sort()
+    list_val = [params[key] for key in list_keys]
+    return list_val
